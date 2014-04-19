@@ -1,0 +1,267 @@
+/* Smile Trade */
+
+@font-face {
+	font-family: 'ComickBook_Simple'; 
+	font-style: normal;
+	font-weight: 400;
+	src: url('http://smile-trade.kz/font/ComickBook_Simple.ttf');
+}
+@font-face {
+	font-family: 'Open_Sans_Condensed_Light'; 
+	font-style: normal;
+	font-weight: 400;
+	src: url('http://smile-trade.kz/font/Open_Sans_Condensed_Light.ttf');
+}
+
+hr {
+    display: block;
+    border: 1px solid #669 !important;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    text-align: center;
+    width: 97%;
+}
+
+header, #mainbody {
+    text-shadow: 1px 2px 0 #99c,
+        0px 1px 1px rgba(0,0,0,.4),
+        0px 2px 2px rgba(0,0,0,.3),
+        1px 3px 3px rgba(0,0,0,.2),
+        1px 5px 5px rgba(0,0,0,.1),
+        2px 13px 13px rgba(0,0,0,.1);
+}
+header {
+    height: 150px;
+    text-align: center;
+}
+header span {
+    font-size: 7em;
+    line-height: 150px;
+}
+span.smile {
+    color: yellow;
+    font-family: ComickBook_Simple;
+}
+span.trade {
+    color: #99c;
+    font-weight: bold;
+}
+span.smily {
+    margin: 0 10px;
+}
+
+#mainbody {
+    font-weight: bold;
+    text-align: center;
+}
+.soon {
+    color: #99f;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 15px;
+}
+.category {
+    color: #99c;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+img.goods-image {
+    height: 300px;
+    width: 300px;
+    
+    border-radius: 150px; /* CSS3 */
+    -moz-border-radius: 150px; /* Firefox */ 
+    -webkit-border-radius: 150px; /* Safari, Chrome */ 
+    behavior: url(http://www.privaatdisain.ee/2011/code/csspie/PIE.php); }
+ }
+ 
+ div.gallery-thumb {
+    display: inline-block;
+    margin: 10px;
+ }
+.gallery-prettyphoto .gallery-thumb img {
+    height: 100px !important;
+    width: 100px !important;
+
+    border-radius: 50px !important; /* CSS3 */
+    -moz-border-radius: 50px !important; /* Firefox */ 
+    -webkit-border-radius: 50px !important; /* Safari, Chrome */ 
+/*    behavior: url(http://www.privaatdisain.ee/2011/code/csspie/PIE.php);*/
+}
+
+.bubble300 {
+    background: #ccc; /* 99c */
+    border: 1px solid #99c; /* 669 */
+    display: inline-block;
+    height: 320px;
+    margin: 10px;
+    position: relative;
+    width: 320px;
+
+    border-radius: 160px !important; /* CSS3 */
+    -moz-border-radius: 160px !important; /* Firefox */ 
+    -webkit-border-radius: 160px !important; /* Safari, Chrome */ 
+}
+.bubble300 a {
+    color: #669;
+    text-decoration: none;
+}
+.bubble300 a:hover, .bubble300 a:focus, .bubble300 a:active {
+    color: #fff;
+/*    text-decoration: line-through;*/
+}
+.bubble300 img {
+    height: 300px;
+    margin: 10px;
+    width: 300px;
+
+    border-radius: 150px !important; /* CSS3 */
+    -moz-border-radius: 150px !important; /* Firefox */ 
+    -webkit-border-radius: 150px !important; /* Safari, Chrome */ 
+}
+.bubble300 .bubble_header {
+    left: 0;
+    margin: 0 10px;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: -120px;
+    width: 300px;
+    z-index: 700;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.bubble300:hover .bubble_header {
+    opacity: 1;
+    
+    -webkit-transform: translate(0,295px);
+    -moz-transform: translate(0,295px);
+    -o-transform: translate(0,295px);
+    -ms-transform: translate(0,295px);
+}
+
+.bubble300 .bubble_hover {
+    color: #336;
+    font-size: 16px;
+    height: 50%;
+    left: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 310px;
+    width: 100%;
+
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    -moz-border-radius-bottomleft: 160px;
+    -moz-border-radius-bottomright: 160px;
+    -webkit-border-radius-bottomleft: 160px;
+    -webkit-border-radius-bottomright: 160px;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+.bubble300:hover .bubble_hover {
+    border-radius-bottomleft: 150px;
+    border-radius-bottomright: 150px;
+/*    behavior: url(http://www.privaatdisain.ee/2011/code/csspie/PIE.php);*/
+    opacity: 0.7;
+
+    -webkit-transform: translate(0,-150px);
+    -moz-transform: translate(0,-150px);
+    -o-transform: translate(0,-150px);
+    -ms-transform: translate(0,-150px);
+}
+.bubble_hover p {
+    margin: 0;
+    padding: 0;
+}
+.bubble1 .bubble_hover { background-color: #ff6; }
+.bubble2 .bubble_hover { background-color: #ff6; }
+.bubble3 .bubble_hover { background-color: #ff6; }
+
+#bubbles .box.bubble_contact a{ color:#fff; text-decoration:none; }
+#bubbles .box.bubble_contact a:hover, #bubbles .box.bubble_contact a:focus, #bubbles .box.bubble_contact a:active{ color:#000; text-decoration: line-through; }
+
+body#contacts p {
+    display: block;
+    margin-left: 30px;
+}
+body#contacts p img {
+	float: left;
+	margin: 0 20px 40px 0;
+}
+body#contacts p img.phone {
+	margin-bottom: 70px;
+}
+body#contacts p img.bank {
+	margin-bottom: 120px;
+}
+
+
+/* FOOTER */
+footer {
+	padding: 10px 0;
+	color: #336;
+	font-size: 17px;
+}
+footer a:link, footer a:visited {
+	color: #903;
+}
+footer a:hover, footer a:focus {
+    color: #F8D8A7; 
+	text-decoration:underline;
+}
+.copyright {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+.right-col {
+    float: right;
+    position: relative;
+    width: 333px;
+}
+.mid-col {
+    margin-right: 333px;
+    override: hidden;
+    position: relative;
+    text-align: center;
+}
+.left-col {
+    float: left;
+    position: relative;
+    text-align: right;
+    width: 333px;
+}
+.phone {
+	color: #669;
+	font-family: 'Yanone Kaffeesatz', arial, helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
+}
+.phone-number {
+    font-size: 48px;
+}
+.phone-code {
+    font-size: 32px;
+}
+.right-col .phone, .mid-col .phone {
+    padding-left: 10px;
+}
+.left-col .phone {
+    padding-right: 10px;
+}
+

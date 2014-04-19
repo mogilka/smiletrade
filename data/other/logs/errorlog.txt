@@ -1,0 +1,19 @@
+[02-Mar-2013 11:04:30] PHP Warning:  file_get_contents(/var/www/smile-trade.kz/temp.htaccess): failed to open stream: No such file or directory in /var/www/smile-trade.kz/admin/setup.php on line 116
+[02-Mar-2013 11:04:30] PHP Warning:  fopen(/var/www/smile-trade.kz/.htaccess): failed to open stream: Permission denied in /var/www/smile-trade.kz/admin/setup.php on line 118
+[02-Mar-2013 11:04:30] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/smile-trade.kz/admin/setup.php on line 119
+[02-Mar-2013 11:04:30] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/smile-trade.kz/admin/setup.php on line 120
+[02-Mar-2013 11:04:30] PHP Warning:  unlink(/var/www/smile-trade.kz/temp.htaccess): No such file or directory in /var/www/smile-trade.kz/admin/setup.php on line 124
+[02-Mar-2013 11:04:30] PHP Warning:  unlink(/var/www/smile-trade.kz/temp.gsconfig.php): No such file or directory in /var/www/smile-trade.kz/admin/setup.php on line 132
+[02-Mar-2013 11:04:30] PHP Warning:  unlink(/var/www/smile-trade.kz/admin/install.php): Permission denied in /var/www/smile-trade.kz/admin/inc/common.php on line 211
+[02-Mar-2013 11:04:30] PHP Warning:  unlink(/var/www/smile-trade.kz/admin/setup.php): Permission denied in /var/www/smile-trade.kz/admin/inc/common.php on line 214
+[02-Mar-2013 11:04:30] PHP Warning:  unlink(/var/www/smile-trade.kz/admin/update.php): Permission denied in /var/www/smile-trade.kz/admin/inc/common.php on line 217
+[02-Mar-2013 11:05:35] PHP Warning:  SimpleXMLElement::asXML(/var/www/smile-trade.kz/sitemap.xml): failed to open stream: Permission denied in /var/www/smile-trade.kz/admin/inc/basic.php on line 273
+[02-Mar-2013 11:05:35] PHP Warning:  include(/var/www/smile-trade.kz/theme/Innovation/template.php): failed to open stream: Permission denied in /var/www/smile-trade.kz/index.php on line 96
+[02-Mar-2013 11:05:35] PHP Warning:  include(): Failed opening '/var/www/smile-trade.kz/theme/Innovation/template.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/smile-trade.kz/index.php on line 96
+[02-Mar-2013 12:07:13] PHP Warning:  include(/var/www/smile-trade.kz/theme/Innovation/template.php): failed to open stream: Permission denied in /var/www/smile-trade.kz/index.php on line 96
+[02-Mar-2013 12:07:13] PHP Warning:  include(): Failed opening '/var/www/smile-trade.kz/theme/Innovation/template.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/smile-trade.kz/index.php on line 96
+[02-Mar-2013 18:12:17] PHP Notice:  Undefined variable: error in /var/www/smile-trade.kz/admin/upload.php on line 81
+[02-Mar-2013 18:12:33] PHP Notice:  Undefined variable: error in /var/www/smile-trade.kz/admin/upload.php on line 81
+[02-Mar-2013 18:12:44] PHP Notice:  Undefined variable: error in /var/www/smile-trade.kz/admin/upload.php on line 81
+[02-Mar-2013 18:14:28] PHP Notice:  Undefined variable: error in /var/www/smile-trade.kz/admin/upload.php on line 81
+[02-Mar-2013 18:20:46] PHP Notice:  Undefined variable: success in /var/www/smile-trade.kz/admin/upload.php on line 76

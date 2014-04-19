@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>goods</name><title><![CDATA[Goods]]></title><parent></parent><tags><![CDATA[goods]]></tags><slug></slug><template><![CDATA[template.php]]></template><menu></menu><headercomponent></headercomponent><showcomponent><![CDATA[<div class="goods-details">
+  <p><?php get_special_field('descr','',false); ?></p>
+
+  <?php if (return_special_field('image')) { ?>
+      <img src="<?php get_special_field('image','',false); ?>" alt="<?php get_page_clean_title(); ?>" class="goods-image"></p>
+  <?php } ?>
+
+  <p><b>Производство: </b><?php get_special_field('manufacturer','',false); ?></p>
+  <p><b>Категория: </b><?php get_special_field('type','',false); ?></p>
+  <p><b>Артикул: </b><?php get_special_field('article','',false); ?></p>
+
+  <p><b>Цена: </b><?php get_special_field('price'); ?>
+    <?php if (return_special_field('wholesale')) { ?>
+      &emsp;<b>Оптовая: </b><?php get_special_field('wholesale','',false); ?>
+    <?php } ?>
+    <?php if (return_special_field('dealer')) { ?>
+      &emsp;<b>Дилерская: </b><?php get_special_field('dealer','',false); ?>
+    <?php } ?>
+    <br /><small>Цены на товар указаны без учёта доставки</small>
+  </p>
+
+  <?php if (return_special_field('similar')) { ?>
+    <p><a href="<?php get_special_field('similar','',false); ?>">Похожие товары</a></p>
+  <?php } ?>
+  
+</div>
+<?php get_page_content(); ?>]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[article]]></name><label><![CDATA[Артикул товара]]></label><type><![CDATA[text]]></type><index>1</index></item><item><name><![CDATA[descr]]></name><label><![CDATA[Краткое описание]]></label><type><![CDATA[text]]></type><index>1</index></item><item><name><![CDATA[type]]></name><label><![CDATA[Категория товара]]></label><type><![CDATA[dropdown]]></type><option><![CDATA[Товары для здоровья]]></option><index>1</index></item><item><name><![CDATA[similar]]></name><label><![CDATA[Похожий товар]]></label><type><![CDATA[link]]></type></item><item><name><![CDATA[price]]></name><label><![CDATA[Розничная цена]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[wholesale]]></name><label><![CDATA[Оптовая цена]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[dealer]]></name><label><![CDATA[Цена для дилеров]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[image]]></name><label><![CDATA[Фото]]></label><type><![CDATA[image]]></type></item><item><name><![CDATA[new]]></name><label><![CDATA[Новинка]]></label><type><![CDATA[checkbox]]></type></item><item><name><![CDATA[manufacturer]]></name><label><![CDATA[Страна-производитель]]></label><type><![CDATA[dropdown]]></type><option><![CDATA[Китай]]></option><index>1</index></item></fields></specialpage>
